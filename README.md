@@ -31,7 +31,7 @@ Test results:
 | Model | F1-weighted | time |
 | ------ | :------: | :------: |
 |MultinomialNB | 0.75 | **3.98 s** | 
-|SVM | 0.77 |  32.05/49.40  | 
+|SVM | 0.77 |  2min 58s  | 
 |LogisticRegression | 0.78  |  3min 13s  |
 |CatBoost | 0.78  |   41min 31s  |
 |LSTM | 0.79  |   33min 17s  |
