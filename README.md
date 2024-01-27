@@ -34,9 +34,9 @@ Test results:
 |SVM | 0.77 |  32.05/49.40  | 
 |LogisticRegression | 0.78  |  3min 13s  |
 |CatBoost | 0.78  |   41min 31s  |
-|LSTM | 0.78  |   41min 31s  |
-|RuBERT | 39.54/62.29 | 18.55/34.22 | 
-|RuPoolBERT | 47.45/70.44 | 34.94/52.05 | 
-|RuBioBERT* | 43.55/68.86 | 28.94/44.55 |
-|RuBioRoBERTa* | 46.72/72.87 | **44.01/58.95** |
-|Human | 25.06/48.54 | 7.23/12.53 | **93.36** | 
+|LSTM | 0.79  |   33min 17s  |
+|CNN | 0.75  |   1h 17min 17s  |
+|RuBERT | 0.26 | 7h 26min 54s | 
+|rubert-tiny2 | **0.83** | 4h 12min 04s |
+|rubert-tiny2-one_BertLayer | 0.81 | **9min 24s** |
+|rugpt3small-two_GPTLayer | 0.79 | 3h 2min 13s |
