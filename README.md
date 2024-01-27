@@ -42,4 +42,7 @@ Test results:
 |rugpt3small-two_GPTLayer** | 0.79 | 3h 2min 13s |
 
 *all layers were removed, leaving only one
-**All layers except two were removed, and the [Sofia](https://arxiv.org/abs/2305.14342) optimizer was used to improve quality.
+
+**all layers except two were removed, and the [Sofia](https://arxiv.org/abs/2305.14342) optimizer was used to improve quality.
+
+To enhance the accuracy of ML methods, additional features were created.
