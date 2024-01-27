@@ -32,11 +32,14 @@ Test results:
 | ------ | :------: | :------: |
 |MultinomialNB | 0.75 | **3.98 s** | 
 |SVM | 0.77 |  2min 58s  | 
-|LogisticRegression | 0.78  |  3min 13s  |
+|LogisticRegression | **0.78**  |  3min 13s  |
 |CatBoost | 0.78  |   41min 31s  |
 |LSTM | 0.79  |   33min 17s  |
 |CNN | 0.75  |   1h 17min 17s  |
 |RuBERT | 0.26 | 7h 26min 54s | 
 |rubert-tiny2 | **0.83** | 4h 12min 04s |
-|rubert-tiny2-one_BertLayer | 0.81 | **9min 24s** |
-|rugpt3small-two_GPTLayer | 0.79 | 3h 2min 13s |
+|rubert-tiny2-one_BertLayer* | 0.81 | **9min 24s** |
+|rugpt3small-two_GPTLayer** | 0.79 | 3h 2min 13s |
+
+*all layers were removed, leaving only one
+**All layers except two were removed, and the [Sofia](https://arxiv.org/abs/2305.14342) optimizer was used to improve quality.
