@@ -30,9 +30,11 @@ Test results:
 
 | Model | F1-weighted | time |
 | ------ | :------: | :------: |
-|Naive | 10.58/22.02 | 1.93/5.30 | 
-|Feature-based | **49.76/72.75**  |  32.05/49.40  | 
-|BiLSTM | 40.88/63.50  |  20.24/31.33  |   
+|MultinomialNB | 0.75 | **3.98 s** | 
+|SVM | 0.77 |  32.05/49.40  | 
+|LogisticRegression | 0.78  |  3min 13s  |
+|CatBoost | 0.78  |   41min 31s  |
+|LSTM | 0.78  |   41min 31s  |
 |RuBERT | 39.54/62.29 | 18.55/34.22 | 
 |RuPoolBERT | 47.45/70.44 | 34.94/52.05 | 
 |RuBioBERT* | 43.55/68.86 | 28.94/44.55 |
