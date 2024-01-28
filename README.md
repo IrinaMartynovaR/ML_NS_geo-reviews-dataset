@@ -43,7 +43,7 @@ Test results:
 
 *all layers were removed, leaving only one
 
-**all layers except two were removed, and the [Sofia](https://arxiv.org/abs/2305.14342) optimizer was used to improve quality.
+**all layers except two were removed, and the [Sophia](https://arxiv.org/abs/2305.14342) optimizer was used to improve quality.
 
 To enhance the accuracy of ML methods, additional features were created.
 
@@ -54,14 +54,18 @@ In the 'Feature_engineering' file, additional features were added to enhance the
         The code defines functions (count_nouns, count_adverbs, count_adjectives) to count the number of nouns, adverbs, and adjectives in each text entry of a DataFrame. 
         
     2.Punctuation and Uppercase Letters Counting:
-        The code calculates the count of specific punctuation and uppercase letters in each text entry and adds these counts as new columns (specific_punctuation_count and uppercase_letters_count) to the DataFrame.
+        The code calculates the count of specific punctuation and uppercase letters in each text entry and adds these counts as new columns (specific_punctuation_count and
+        uppercase_letters_count) to the DataFrame.
 
     3.Word Frequency Analysis:
-        The code calculates the frequency of each word in the text data and identifies rare and frequent words. The thresholds for rare and frequent words are defined, and new columns (rare_words and frequent_words) are added to the DataFrame based on these thresholds.
+        The code calculates the frequency of each word in the text data and identifies rare and frequent words. The thresholds for rare and frequent words are defined, and 
+        new columns (rare_words and frequent_words) are added to the DataFrame based on these thresholds.
 
     4.Top Words by Class:
-        The code reads a CSV file and performs additional analysis to identify the top words for each class ('Positive', 'Neutral', 'Negative'). The top words for each class are stored in the top_words_by_class dictionary.
+        The code reads a CSV file and performs additional analysis to identify the top words for each class ('Positive', 'Neutral', 'Negative'). The top words for each class 
+        are stored in the top_words_by_class dictionary.
 
     5.Filtering Specific Words:
-        The code filters out the first 50 common words from the positive, neutral, and negative classes. The remaining 15 words are considered specific to each class. These specific words are then used to create new binary columns (pos_f, negat_f, neut_f) indicating the presence of specific words in each text entry.
+        The code filters out the first 50 common words from the positive, neutral, and negative classes. The remaining 15 words are considered specific to each class. These specific
+        words are then used to create new binary columns (pos_f, negat_f, neut_f) indicating the presence of specific words in each text entry.
 
